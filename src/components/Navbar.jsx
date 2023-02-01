@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo1.png'
+import Pdf from '../assets/AleksandarMilivojevicCV.docx.pdf'
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -71,32 +72,33 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={hanldeClick} to="contact" smooth={true} duration={500}>
+                <Link onClick={hanldeClick} to="work" smooth={true} duration={500}>
                     Contact
-                </Link> 
+                </Link>
             </li>
+
         </ul>
 
         {/* Social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/aleksandar-milivojevic-5473b8222/" target="_blank">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/salelibertas" target="_blank">
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href='mailto:salelibertas@gmail.com' target="_blank">
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href={Pdf} target="_blank">
                         Resime <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

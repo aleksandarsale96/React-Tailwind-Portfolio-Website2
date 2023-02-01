@@ -5,11 +5,10 @@ import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Node from '../assets/node.png'
-import FireBase from '../assets/firebase.png'
-import AWS from '../assets/aws.png'
+import Bootstrap from '../assets/bootstrap.png'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
-import Mongo from '../assets/mongo.png'
+
 
 
 
@@ -50,12 +49,8 @@ const Skills = () => {
                     <p className='my-4'>Node</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={FireBase} alt="FireBase icon" />
-                    <p className='my-4'>FireBase</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={AWS} alt="AWS icon" />
-                    <p className='my-4'>AWS</p>
+                    <img className='w-20 mx-auto' src={Bootstrap} alt="FireBase icon" />
+                    <p className='my-4'>Bootstrap</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt="Github icon" />
@@ -64,10 +59,6 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                     <p className='my-4'>Tailwind</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Mongo} alt="Mongo icon" />
-                    <p className='my-4'>Mongo</p>
                 </div>
             </div>
         </div>
