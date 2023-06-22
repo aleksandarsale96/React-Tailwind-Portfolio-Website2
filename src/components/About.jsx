@@ -18,11 +18,11 @@ const About = () => {
                 </div>
                 <div>
                     <p>
-                        I am passionate about building excellent software that improves
-                        the lives of those around me. I specialize in creating software
-                        for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations. What would you do if you had
-                        a software expert available at your fingertips?
+                        Apart from my technical skills, I am a highly motivated individual with a strong work ethic. 
+                        I approach tasks with a detail-oriented mindset and strive for excellence in everything I do. 
+                        I am a quick learner and adapt easily to new technologies and methodologies. Moreover, 
+                        I am an excellent team player and communicate effectively, allowing me to collaborate seamlessly 
+                        with colleagues and contribute to a positive work environment.
                     </p>  
                 </div>
             </div>
